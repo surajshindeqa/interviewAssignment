@@ -21,6 +21,8 @@ public class home extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 	
+	//Home-search page webelements
+	
 	@FindBy(xpath="//input[@title=\"Search for Products, Brands and More\"]")
 	WebElement searchbox; 
 	

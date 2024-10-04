@@ -21,7 +21,7 @@ import pageObjects.home;
 
 public class AddToCart  extends BaseClass{
 	
-	
+	//Test Cases #2
 	@Test
 	public void Validate_Add_to_Cart() throws InterruptedException, IOException {
 		

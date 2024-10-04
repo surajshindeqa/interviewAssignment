@@ -10,13 +10,6 @@
           <include name="Validate_Add_to_Cart"/>
         </methods>
       </class> <!-- testCases.AddToCart -->
-      <class name="testCases.SearchProducts">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="verifySortOrder"/>
-        </methods>
-      </class> <!-- testCases.SearchProducts -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [FlipkartSuite] -->

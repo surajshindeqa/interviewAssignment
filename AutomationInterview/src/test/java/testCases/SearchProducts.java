@@ -17,6 +17,8 @@ import org.testng.annotations.Test;
 
 public class SearchProducts extends BaseClass{
 	
+	//Test Cases #1
+	
 	@Test
 	public void verifySortOrder() throws InterruptedException, IOException {
 		
@@ -37,7 +39,7 @@ public class SearchProducts extends BaseClass{
 	}
 	
 	
-
+	//Fetch data from excel
 	public String[] fetchdata() throws IOException {
 
 	    String excelFilePath = System.getProperty("user.dir") + "\\dataFiles\\InputData.xlsx";
